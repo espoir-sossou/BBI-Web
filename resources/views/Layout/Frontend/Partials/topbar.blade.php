@@ -211,7 +211,7 @@
                     <i class="fa fa-user" aria-hidden="true" style="font-size: 20px; color: #318093"></i>
                     <span class="ml-2" style="color: #318093">Profil</span>
                 </button>
-                <div class="dropdown-menu dropdown-menu-right">
+                <div class="dropdown-menu"> <!-- Supprimée la classe 'dropdown-menu-right' -->
                     <!-- Gestion des liens de profil et déconnexion -->
                     @if (session()->has('user'))
                         <a href="{{ route('user.profil') }}">
@@ -275,7 +275,7 @@
         <!-- Logo aligné à gauche -->
         <div class="col-4">
             <img src="Frontend/Home/assets/imgs/logo_bbi.png" alt="Logo" class="img-fluid"
-                style="width: 120px; height: 80px;" />
+                style="width: 100px; height: 80px;" />
         </div>
 
         <!-- Barre de recherche alignée à droite -->

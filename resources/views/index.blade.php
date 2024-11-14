@@ -18,8 +18,6 @@
                                     Inter
                                 </h1>
                                 <p class="mx-md-5 px-5 animate__animated animate__bounceIn"></p>
-                                <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
-                                    href="#">Shop Now</a>
                             </div>
                         </div>
 
@@ -72,7 +70,7 @@
                                     <img src="Frontend/Home/assets/imgs/single-property.jpg" alt="">
                                 </div>
                                 <div class="main-content">
-                                    <span class="category">Apparment</span>
+                                    <span class="category">Appartement</span>
                                     <h4>24 New Street Miami, OR 24560</h4>
 
                                 </div>
@@ -82,28 +80,25 @@
                                 <div class="info-table">
                                     <ul>
                                         <li>
-                                            <img src="Frontend/Home/assets/imgs/info-icon-01.png" alt=""
-                                                style="max-width: 52px;">
-                                            <h4>450 m2<br><span>Total Flat Space</span></h4>
+                                            <img src="Frontend/Home/assets/imgs/info-icon-01.png" alt="" style="max-width: 52px;">
+                                            <h4>450 m2<br><span>Surface Totale</span></h4>
                                         </li>
                                         <li>
-                                            <img src="Frontend/Home/assets/imgs/info-icon-02.png" alt=""
-                                                style="max-width: 52px;">
-                                            <h4>Contract<br><span>Contract Ready</span></h4>
+                                            <img src="Frontend/Home/assets/imgs/info-icon-02.png" alt="" style="max-width: 52px;">
+                                            <h4>Contrat<br><span>Contrat Prêt</span></h4>
                                         </li>
                                         <li>
-                                            <img src="Frontend/Home/assets/imgs/info-icon-03.png" alt=""
-                                                style="max-width: 52px;">
-                                            <h4>Payment<br><span>Payment Process</span></h4>
+                                            <img src="Frontend/Home/assets/imgs/info-icon-03.png" alt="" style="max-width: 52px;">
+                                            <h4>Paiement<br><span>Processus de Paiement</span></h4>
                                         </li>
                                         <li>
-                                            <img src="Frontend/Home/assets/imgs/info-icon-04.png" alt=""
-                                                style="max-width: 52px;">
-                                            <h4>Safety<br><span>24/7 Under Control</span></h4>
+                                            <img src="Frontend/Home/assets/imgs/info-icon-04.png" alt="" style="max-width: 52px;">
+                                            <h4>Sécurité<br><span>Sous Contrôle 24h/24</span></h4>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -121,189 +116,180 @@
                 <div class="container">
                     <ul class="properties-filter">
                         <li>
-                            <a class="is_active" href="#!" data-filter="*">Show All</a>
+                            <a class="is_active" href="#!" data-filter="*">Voir Tout </a>
                         </li>
                         <li>
-                            <a href="#!" data-filter=".adv">Apartment</a>
+                            <a href="#!" data-filter=".adv">Appartement</a>
                         </li>
                         <li>
-                            <a href="#!" data-filter=".str">Villa House</a>
+                            <a href="#!" data-filter=".str">Maison Villa</a>
                         </li>
-
                     </ul>
                     <div class="row properties-box">
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-01.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-01.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$2.264.000</h6>
-                                <h4><a href="property-details.html">18 Old Street Miami, OR 97219</a></h4>
+                                <h4><a href="property-details.html">18 Vieille Rue Miami, OR 97219</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>8</span></li>
-                                    <li>Bathrooms: <span>8</span></li>
-                                    <li>Area: <span>545m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>6 spots</span></li>
+                                    <li>Chambres : <span>8</span></li>
+                                    <li>Salles de bain : <span>8</span></li>
+                                    <li>Surface : <span>545m2</span></li>
+                                    <li>Étages : <span>3</span></li>
+                                    <li>Parking : <span>6 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-02.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-02.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$1.180.000</h6>
-                                <h4><a href="property-details.html">54 New Street Florida, OR 27001</a></h4>
+                                <h4><a href="property-details.html">54 Nouvelle Rue Floride, OR 27001</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>6</span></li>
-                                    <li>Bathrooms: <span>5</span></li>
-                                    <li>Area: <span>450m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>8 spots</span></li>
+                                    <li>Chambres : <span>6</span></li>
+                                    <li>Salles de bain : <span>5</span></li>
+                                    <li>Surface : <span>450m2</span></li>
+                                    <li>Étages : <span>3</span></li>
+                                    <li>Parking : <span>8 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-03.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-03.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$1.460.000</h6>
-                                <h4><a href="property-details.html">26 Mid Street Portland, OR 38540</a></h4>
+                                <h4><a href="property-details.html">26 Rue Centrale Portland, OR 38540</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>5</span></li>
-                                    <li>Bathrooms: <span>4</span></li>
-                                    <li>Area: <span>225m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>10 spots</span></li>
+                                    <li>Chambres : <span>5</span></li>
+                                    <li>Salles de bain : <span>4</span></li>
+                                    <li>Surface : <span>225m2</span></li>
+                                    <li>Étages : <span>3</span></li>
+                                    <li>Parking : <span>10 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-04.jpg"
-                                        alt=""></a>
-                                <span class="category">Apartment</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-04.jpg" alt=""></a>
+                                <span class="category">Appartement</span>
                                 <h6>$584.500</h6>
-                                <h4><a href="property-details.html">12 Hope Street Portland, OR 12650</a></h4>
+                                <h4><a href="property-details.html">12 Rue de l'Espoir Portland, OR 12650</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>4</span></li>
-                                    <li>Bathrooms: <span>3</span></li>
-                                    <li>Area: <span>125m2</span></li>
-                                    <li>Floor: <span>25th</span></li>
-                                    <li>Parking: <span>2 cars</span></li>
+                                    <li>Chambres : <span>4</span></li>
+                                    <li>Salles de bain : <span>3</span></li>
+                                    <li>Surface : <span>125m2</span></li>
+                                    <li>Étages : <span>25e</span></li>
+                                    <li>Parking : <span>2 voitures</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-05.jpg"
-                                        alt=""></a>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-05.jpg" alt=""></a>
                                 <span class="category">Penthouse</span>
                                 <h6>$925.600</h6>
-                                <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
+                                <h4><a href="property-details.html">34 Rue de l'Espoir Portland, OR 42680</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>4</span></li>
-                                    <li>Bathrooms: <span>4</span></li>
-                                    <li>Area: <span>180m2</span></li>
-                                    <li>Floor: <span>38th</span></li>
-                                    <li>Parking: <span>2 cars</span></li>
+                                    <li>Chambres : <span>4</span></li>
+                                    <li>Salles de bain : <span>4</span></li>
+                                    <li>Surface : <span>180m2</span></li>
+                                    <li>Étages : <span>38e</span></li>
+                                    <li>Parking : <span>2 voitures</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-06.jpg"
-                                        alt=""></a>
-                                <span class="category">Modern Condo</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-06.jpg" alt=""></a>
+                                <span class="category">Condo Moderne</span>
                                 <h6>$450.000</h6>
-                                <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
+                                <h4><a href="property-details.html">22 Rue de l'Espoir Portland, OR 16540</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>3</span></li>
-                                    <li>Bathrooms: <span>2</span></li>
-                                    <li>Area: <span>165m2</span></li>
-                                    <li>Floor: <span>26th</span></li>
-                                    <li>Parking: <span>3 cars</span></li>
+                                    <li>Chambres : <span>3</span></li>
+                                    <li>Salles de bain : <span>2</span></li>
+                                    <li>Surface : <span>165m2</span></li>
+                                    <li>Étages : <span>26e</span></li>
+                                    <li>Parking : <span>3 voitures</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-03.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-03.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$980.000</h6>
-                                <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+                                <h4><a href="property-details.html">14 Rue Centrale Miami, OR 36450</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>8</span></li>
-                                    <li>Bathrooms: <span>8</span></li>
-                                    <li>Area: <span>550m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>12 spots</span></li>
+                                    <li>Chambres : <span>8</span></li>
+                                    <li>Salles de bain : <span>8</span></li>
+                                    <li>Surface : <span>550m2</span></li>
+                                    <li>Étages : <span>3</span></li>
+                                    <li>Parking : <span>12 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-02.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-02.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$1.520.000</h6>
-                                <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
+                                <h4><a href="property-details.html">26 Vieille Rue Miami, OR 12870</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>12</span></li>
-                                    <li>Bathrooms: <span>15</span></li>
-                                    <li>Area: <span>380m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>14 spots</span></li>
+                                    <li>Chambres : <span>12</span></li>
+                                    <li>Salles de bain : <span>15</span></li>
+                                    <li>Surface : <span>380m2</span></li>
+                                    <li>Étages : <span>3</span></li>
+                                    <li>Parking : <span>14 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
                             <div class="item">
-                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-01.jpg"
-                                        alt=""></a>
-                                <span class="category">Luxury Villa</span>
+                                <a href="property-details.html"><img src="Frontend/Home/assets/imgs/property-01.jpg" alt=""></a>
+                                <span class="category">Villa de Luxe</span>
                                 <h6>$3.145.000</h6>
-                                <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                                <h4><a href="property-details.html">26 Vieille Rue Miami, OR 12870</a></h4>
                                 <ul>
-                                    <li>Bedrooms: <span>10</span></li>
-                                    <li>Bathrooms: <span>12</span></li>
-                                    <li>Area: <span>860m2</span></li>
-                                    <li>Floor: <span>3</span></li>
-                                    <li>Parking: <span>10 spots</span></li>
+                                    <li>Chambres : <span>6</span></li>
+                                    <li>Salles de bain : <span>4</span></li>
+                                    <li>Surface : <span>400m2</span></li>
+                                    <li>Étages : <span>2</span></li>
+                                    <li>Parking : <span>10 places</span></li>
                                 </ul>
                                 <div class="main-button">
-                                    <a href="property-details.html">Schedule a visit</a>
+                                    <a href="property-details.html">Planifier une visite</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-lg-12">
                             <ul class="pagination">
