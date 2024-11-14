@@ -1,7 +1,11 @@
 @extends('Layout.home')
 
 @section('content')
-    <img class="position-absolute w-100 h-50" src="Frontend/Home/assets/imgs/img1.jpg" style="object-fit: cover;">
+<style>
+    
+</style>
+<img class="responsive-image position-absolute w-100 h-50" src="Frontend/Home/assets/imgs/img1.jpg">
+
     <div class="row">
         <div class="col-lg-12">
             <!-- Banniere -->
@@ -316,7 +320,7 @@
         </div>
         <!-- villa End -->
     </div>
-   
+
     <!-- Vendor Start -->
     <div class="container-fluid py-5">
         <div class="row px-xl-5">

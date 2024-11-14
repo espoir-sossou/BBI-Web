@@ -53,6 +53,32 @@
         display: block; /* Afficher la section Vendor sur les écrans de taille normale */
     }
 }
+/* Masquer les éléments sur les petits écrans */
+@media (max-width: 768px) {
+    .container-fluid .row .col-lg-3 {
+        display: none; /* Masque les éléments sur les petits écrans */
+    }
+}
+
+
+/* Classe générale pour l'image */
+.responsive-image {
+    object-fit: cover; /* Maintient l'aspect de l'image en la recadrant */
+    width: 100%; /* Assure que l'image occupe toute la largeur de son conteneur */
+    height: 100%; /* Assure que l'image occupe toute la hauteur de son conteneur */
+    position: relative; /* Positionnement relatif pour éviter tout décalage */
+}
+
+/* Sur les petits écrans */
+@media (max-width: 768px) {
+    .responsive-image {
+        height: 30vh !important; /* Réduit la hauteur à 30% de la hauteur de l'écran */
+        margin-bottom: 0 !important; /* Supprime toute marge en bas de l'image */
+    }
+}
+
+
+
 
 </style>
     </head>

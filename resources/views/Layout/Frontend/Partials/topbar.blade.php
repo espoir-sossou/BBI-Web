@@ -298,6 +298,7 @@
                         <i class="fa fa-phone" style="color: #318093;"></i> <span>Appeler</span>
                     </button>
                 </li>
+                  <!--
                 <li class="nav-item">
                     <button class="btn btn-light">
                         <i class="fa fa-comment" style="color: #318093;"></i> <span>Messages</span>
@@ -313,6 +314,7 @@
                         <i class="fa fa-heart" style="color: #318093;"></i> <span>Favori</span>
                     </button>
                 </li>
+                 Gestion des liens de profil et déconnexion -->
                 <li class="nav-item">
                     <button class="btn btn-light">
                         <i class="fa fa-shopping-cart" style="color: #318093;"></i> <span>Panier</span>
@@ -320,7 +322,7 @@
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-bell" style="color: #318093;"></i> <span>Notifications</span>
+                        <i class="fa fa-bell" style="color: #318093;"></i> <span>Notifi</span>
                     </button>
                 </li>
                 <li class="nav-item">
@@ -377,7 +379,7 @@
             <span>Filtre</span>
         </a>
         <a href="#" class="bottom-nav-item">
-            <i class="fa fa-business"></i>
+            <i class="fa fa-business" style="color: #318093;"> </i>
             <span>Agent</span>
         </a>
         <a href="#" class="bottom-nav-item">
