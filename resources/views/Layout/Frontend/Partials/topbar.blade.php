@@ -314,17 +314,18 @@
                         <i class="fa fa-heart" style="color: #318093;"></i> <span>Favori</span>
                     </button>
                 </li>
+                 <li class="nav-item">
+                    <button class="btn btn-light">
+                        <i class="fa fa-bell" style="color: #318093;"></i> <span>Notifications</span>
+                    </button>
+                </li>
                  Gestion des liens de profil et déconnexion -->
                 <li class="nav-item">
                     <button class="btn btn-light">
                         <i class="fa fa-shopping-cart" style="color: #318093;"></i> <span>Panier</span>
                     </button>
                 </li>
-                <li class="nav-item">
-                    <button class="btn btn-light">
-                        <i class="fa fa-bell" style="color: #318093;"></i> <span>Notifi</span>
-                    </button>
-                </li>
+
                 <li class="nav-item">
                     <div class="btn-group mx-1">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle d-flex align-items-center"
@@ -379,7 +380,7 @@
             <span>Filtre</span>
         </a>
         <a href="#" class="bottom-nav-item">
-            <i class="fa fa-business" style="color: #318093;"> </i>
+            <i class="fa fa-business"></i>
             <span>Agent</span>
         </a>
         <a href="#" class="bottom-nav-item">

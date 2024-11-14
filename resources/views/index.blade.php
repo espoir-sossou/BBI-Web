@@ -1,10 +1,10 @@
 @extends('Layout.home')
 
 @section('content')
-<style>
-    
-</style>
-<img class="responsive-image position-absolute w-100 h-50" src="Frontend/Home/assets/imgs/img1.jpg">
+    <style>
+
+    </style>
+    <img class="responsive-image position-absolute w-100 h-50" src="Frontend/Home/assets/imgs/img1.jpg">
 
     <div class="row">
         <div class="col-lg-12">
@@ -14,7 +14,8 @@
                     <div class="col-lg-12">
                         <div class=" position-relative active" style="height: 430px; width:100%">
                             <div class="p-3" style="max-width: 700px;">
-                                <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Bolivie Business Inter
+                                <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Bolivie Business
+                                    Inter
                                 </h1>
                                 <p class="mx-md-5 px-5 animate__animated animate__bounceIn"></p>
                                 <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp"
@@ -326,46 +327,46 @@
         <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg1.jpeg" height="200px" alt="">
-                    </div>
-                   </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg2.jpeg" height="200px" alt="">
-                    </div>
-                   </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg1.jpeg" height="200px" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg2.jpeg" height="200px" alt="">
+                        </div>
+                    </a>
                     <a href="">
                         <div class="bg-light p-4">
                             <img src="Frontend/Home/assets/imgs/dsg3.jpg" height="200px" alt="">
                         </div>
                     </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg4.jpeg" height="200px" alt="">
-                    </div>
-                   </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg5.jpg" height="200px" alt="">
-                    </div>
-                   </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg6.jpg" height="200px" alt="">
-                    </div>
-                   </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg7.png" height="200px" alt="">
-                    </div>
-                   </a>
-                   <a href="">
-                    <div class="bg-light p-4">
-                        <img src="Frontend/Home/assets/imgs/dsg2.jpeg" height="200px" alt="">
-                    </div>
-                   </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg4.jpeg" height="200px" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg5.jpg" height="200px" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg6.jpg" height="200px" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg7.png" height="200px" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="bg-light p-4">
+                            <img src="Frontend/Home/assets/imgs/dsg2.jpeg" height="200px" alt="">
+                        </div>
+                    </a>
 
                 </div>
             </div>
@@ -396,7 +397,4 @@
     <script src="Generales/Villa/assets/js/owl-carousel.js"></script>
     <script src="Generales/Villa/assets/js/counter.js"></script>
     <script src="Generales/Villa/assets/js/custom.js"></script>
-
-
-
 @endsection
