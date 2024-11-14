@@ -69,11 +69,30 @@
 /* Sur les petits écrans */
 @media (max-width: 768px) {
     .responsive-image {
-        height: 40vh !important; /* Réduit la hauteur à 30% de la hauteur de l'écran */
+        height: 30vh !important; /* Réduit la hauteur à 30% de la hauteur de l'écran */
         margin-bottom: 0 !important; /* Supprime toute marge en bas de l'image */
     }
 }
 
+/* Sur les petits écrans */
+@media (max-width: 768px) {
+    .single-property.section {
+        top: 10px; /* Ajuste la valeur du top sur les petits écrans */
+    }
+}
+@media (max-width: 768px) {
+    .col-lg-8 {
+        display: none; /* Masque le contenu sur les écrans de petite taille */
+    }
+}
+/* Règle pour petits écrans */
+@media (max-width: 768px) {
+    .section.properties {
+        margin-top: -130px; /* Augmentez la valeur négative pour aller encore plus haut */
+        position: relative;
+        top: -130px; /* Ajustez cette valeur selon vos besoins */
+    }
+}
 
 
 

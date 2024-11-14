@@ -118,7 +118,7 @@
 
 /* Style pour les icônes */
 .bottom-nav-item i {
-    font-size: 22px; /* Taille des icônes */
+    font-size: 18px; /* Taille des icônes */
 }
 
 /* Style pour les textes sous les icônes */
@@ -380,7 +380,7 @@
             <span>Filtre</span>
         </a>
         <a href="#" class="bottom-nav-item">
-            <i class="fa fa-business"></i>
+            <i class="fa fa-user"></i>
             <span>Agent</span>
         </a>
         <a href="#" class="bottom-nav-item">
@@ -389,3 +389,4 @@
         </a>
     </div>
 </div>
+

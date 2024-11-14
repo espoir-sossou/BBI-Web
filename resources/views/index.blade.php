@@ -129,9 +129,7 @@
                         <li>
                             <a href="#!" data-filter=".str">Villa House</a>
                         </li>
-                        <li>
-                            <a href="#!" data-filter=".rac">Penthouse</a>
-                        </li>
+
                     </ul>
                     <div class="row properties-box">
                         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
