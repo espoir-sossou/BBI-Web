@@ -1,3 +1,20 @@
+<style>
+    /* Masquer le footer sur les petits écrans (mobile) */
+@media (max-width: 768px) {
+    .container-fluid.bg-dark.text-secondary {
+        display: none; /* Masquer tout le footer sur les petits écrans */
+    }
+}
+
+/* Afficher le footer sur les grands écrans */
+@media (min-width: 769px) {
+    .container-fluid.bg-dark.text-secondary {
+        display: block; /* Afficher le footer sur les écrans de taille normale */
+    }
+}
+
+</style>
+
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
     <div class="row px-xl-5 pt-5">

@@ -39,6 +39,22 @@
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="Generales/css/style.css" rel="stylesheet">
+<style>
+    /* Masquer la section Vendor sur les petits écrans (mobile) */
+@media (max-width: 768px) {
+    .container-fluid.py-5 {
+        display: none; /* Masquer la section Vendor sur les petits écrans */
+    }
+}
+
+/* Afficher la section Vendor sur les grands écrans */
+@media (min-width: 769px) {
+    .container-fluid.py-5 {
+        display: block; /* Afficher la section Vendor sur les écrans de taille normale */
+    }
+}
+
+</style>
     </head>
 <body>
     <!-- *****
