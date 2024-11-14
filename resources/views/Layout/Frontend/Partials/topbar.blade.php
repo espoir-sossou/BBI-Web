@@ -85,56 +85,65 @@
         }
     }
 
-/* Masquer la barre de navigation par défaut sur les grands écrans */
-.bottom-navbar {
-    display: none;
-}
-
-/* Styles pour la barre de navigation en bas sur petits écrans */
-.bottom-navbar.d-block.d-lg-none {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 9999;
-    display: flex; /* Utilisation de Flexbox pour disposer les éléments horizontalement */
-    justify-content: flex-start; /* Aligner les éléments à gauche, sans espacement */
-    align-items: center; /* Alignement vertical centré */
-    height: 60px; /* Ajuste la hauteur de la barre de navigation */
-    padding: 0; /* Pas de padding */
-}
-
-/* Style pour les éléments de la barre de navigation */
-.bottom-nav-item {
-    text-align: center;
-    color: #318093; /* Couleur des icônes et du texte */
-    text-decoration: none;
-    flex: none; /* Ne pas étirer les éléments */
-    width: auto; /* Largeur automatique pour les éléments */
-    padding: 0 15px; /* Ajouter un petit espacement horizontal entre les éléments */
-}
-
-/* Style pour les icônes */
-.bottom-nav-item i {
-    font-size: 18px; /* Taille des icônes */
-}
-
-/* Style pour les textes sous les icônes */
-.bottom-nav-item span {
-    display: block;
-    font-size: 12px;
-}
-
-/* Afficher la barre de navigation en bas sur petits écrans */
-@media (max-width: 768px) {
+    /* Masquer la barre de navigation par défaut sur les grands écrans */
     .bottom-navbar {
-        display: flex; /* Afficher la barre en bas pour petits écrans */
+        display: none;
     }
-}
 
+    /* Styles pour la barre de navigation en bas sur petits écrans */
+    .bottom-navbar.d-block.d-lg-none {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        display: flex;
+        /* Utilisation de Flexbox pour disposer les éléments horizontalement */
+        justify-content: flex-start;
+        /* Aligner les éléments à gauche, sans espacement */
+        align-items: center;
+        /* Alignement vertical centré */
+        height: 60px;
+        /* Ajuste la hauteur de la barre de navigation */
+        padding: 0;
+        /* Pas de padding */
+    }
 
+    /* Style pour les éléments de la barre de navigation */
+    .bottom-nav-item {
+        text-align: center;
+        color: #318093;
+        /* Couleur des icônes et du texte */
+        text-decoration: none;
+        flex: none;
+        /* Ne pas étirer les éléments */
+        width: auto;
+        /* Largeur automatique pour les éléments */
+        padding: 0 15px;
+        /* Ajouter un petit espacement horizontal entre les éléments */
+    }
+
+    /* Style pour les icônes */
+    .bottom-nav-item i {
+        font-size: 18px;
+        /* Taille des icônes */
+    }
+
+    /* Style pour les textes sous les icônes */
+    .bottom-nav-item span {
+        display: block;
+        font-size: 12px;
+    }
+
+    /* Afficher la barre de navigation en bas sur petits écrans */
+    @media (max-width: 768px) {
+        .bottom-navbar {
+            display: flex;
+            /* Afficher la barre en bas pour petits écrans */
+        }
+    }
 </style>
 
 
@@ -261,7 +270,7 @@
     </div>
     <div class="col-lg-4 col-6 text-right mb-4">
         <a href="{{ route('loginPage') }}" class="btn btn-outline-primary"
-            style="border-radius: 30px; font-weight: 700;">
+            style="border-radius: 30px; font-weight: 700; color:#318093">
             <i class="fas fa-bullhorn mr-2"></i> Publier une annonce
         </a>
     </div>
@@ -298,7 +307,7 @@
                         <i class="fa fa-phone" style="color: #318093;"></i> <span>Appeler</span>
                     </button>
                 </li>
-                  <!--
+                <!--
                 <li class="nav-item">
                     <button class="btn btn-light">
                         <i class="fa fa-comment" style="color: #318093;"></i> <span>Messages</span>
@@ -337,7 +346,8 @@
                             <!-- Gestion des liens de profil et déconnexion -->
                             @if (session()->has('user'))
                                 <a href="{{ route('user.profil') }}">
-                                    <button class="dropdown-item" type="button" style="color: #318093">Voir Profil</button>
+                                    <button class="dropdown-item" type="button" style="color: #318093">Voir
+                                        Profil</button>
                                 </a>
                                 <form id="logout-form" action="{{ route('user.logout') }}" method="POST"
                                     style="display: none;">
@@ -349,10 +359,12 @@
                                 </button>
                             @else
                                 <a href="{{ route('loginPage') }}">
-                                    <button class="dropdown-item" type="button" style="color: #318093">Se connecter</button>
+                                    <button class="dropdown-item" type="button" style="color: #318093">Se
+                                        connecter</button>
                                 </a>
                                 <a href="{{ route('signUpPage') }}">
-                                    <button class="dropdown-item" type="button" style="color: #318093">S'inscrire</button>
+                                    <button class="dropdown-item" type="button"
+                                        style="color: #318093">S'inscrire</button>
                                 </a>
                             @endif
                         </div>
@@ -389,4 +401,3 @@
         </a>
     </div>
 </div>
-

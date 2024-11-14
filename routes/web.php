@@ -30,7 +30,7 @@ Route::get('/signup-page', [AuthController::class, 'signUpPage'])->name('signUpP
 Route::post('/sign-up', [AuthController::class, 'handleSignup'])->name('handleSignup');
 
 // Route de déconnexion, accessible uniquement aux utilisateurs authentifiés
-Route::post('/user-logout', [AuthController::class, 'handleLogout'])->name('user.logout')->middleware(['no-back-history',]);
+Route::post('/user-logout', [AuthController::class, 'handleLogout'])->name('user.logout');
 
 // Routes protégées par no-back-historyentification et non accessibles après déconnexion
 Route::middleware(['no-back-history',])->group(function () {

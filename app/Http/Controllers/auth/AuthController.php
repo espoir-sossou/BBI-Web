@@ -59,7 +59,7 @@ class AuthController extends Controller
             'sexe' => $request->input('sexe'),
             'role' => $request->input('role'),
             'email' => $request->input('email'),
-            'password' => bcrypt($request->input('password')),  // Hasher le mot de passe
+            'password' => $request->input('password'),  // Envoyer le mot de passe brut, l'API se chargera du hachage
             'telephone' => $request->input('phone'),
             'adresse' => $request->input('adresse'),
         ]);
@@ -126,20 +126,23 @@ class AuthController extends Controller
 
     public function handleLogout(Request $request)
     {
-        // Vérifie si un utilisateur est authentifié dans la session
+        // Vérifiez si un utilisateur est authentifié dans la session
         if (Session::has('user')) {
             // Récupère le token de l'utilisateur pour l'envoyer à l'API NestJS
             $token = Session::get('user.token');
-              // Supprimer toutes les informations de la session
+            $isGoogleAuth = Session::get('user.isGoogleAuth', false);
+
+            // Supprime les informations de session de l'utilisateur
             Session::flush();
-            $response = Http::withToken($token)->post(config('custom.routes.auth_google_logout'));
+
+            // Choisissez la bonne route pour la déconnexion en fonction du type de connexion
+            $logoutRoute = $isGoogleAuth ? config('custom.routes.auth_google_logout') : config('custom.routes.auth_logout');
+
+            $response = Http::withToken($token)->post($logoutRoute);
 
             if ($response->successful()) {
-                // Supprime les informations de session de l'utilisateur
-                Session::forget('user');
                 return redirect()->route('loginPage')->with('success', 'Déconnexion réussie !');
             } else {
-                // Redirige avec un message d'erreur si la déconnexion via API échoue
                 return redirect()->route('user.profil')->with('fail', 'Erreur lors de la déconnexion depuis le serveur.');
             }
         } else {
@@ -147,6 +150,7 @@ class AuthController extends Controller
             return redirect()->route('loginPage')->with('fail', 'Aucun utilisateur connecté.');
         }
     }
+
 
 
 
