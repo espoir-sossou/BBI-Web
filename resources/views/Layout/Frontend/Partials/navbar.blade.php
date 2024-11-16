@@ -71,11 +71,11 @@
                             <i class="fa fa-map" aria-hidden="true"></i>
                             Carte
                         </a>
-                        <a href="" class="nav-item nav-link">
+                        <a href="{{ route('filtre.page') }}" class="nav-item nav-link">
                             <i class="fa fa-filter" aria-hidden="true"></i>
                             Filtre
                         </a>
-                        <a href="" class="nav-item nav-link">
+                        <a href="{{ route('signUpPage') }}" class="nav-item nav-link">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             Agent
                         </a>

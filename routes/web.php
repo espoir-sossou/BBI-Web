@@ -36,15 +36,42 @@ Route::post('/user-logout', [AuthController::class, 'handleLogout'])->name('user
 Route::middleware(['no-back-history',])->group(function () {
     Route::get('/user-profil', [AuthController::class, 'userProfil'])->name('user.profil');
 
+
     // Routes de l'admin
     Route::get('/admin/dashboard', [AdminController::class, 'adminDashboard'])->name('admin.dashboard');
     Route::get('/admin/table', [AdminController::class, 'adminTable'])->name('admin.table');
     Route::get('/admin/chart', [AdminController::class, 'adminChart'])->name('admin.chart');
+    Route::get('/admin/annonce-liste', [AgenceController::class, 'adminAnnonceListe'])->name('admin.annonce.liste');
+
+    Route::post('/admin/annonces/{id}/validation', [AgenceController::class, 'adminAnnonceValidader'])->name('admin.annonces.valider');
+    Route::delete('/admin/annonces/{id}', [AgenceController::class, 'adminDestroyAnnonce'])->name('admin.annonces.destroy');
 
     // Routes de l'agence
     Route::get('/agence/dashboard', [AgenceController::class, 'agenceDashboard'])->name('agence.dashboard');
     Route::get('/agence/table', [AgenceController::class, 'agenceTable'])->name('agence.table');
     Route::get('/agence/chart', [AgenceController::class, 'agenceChart'])->name('agence.chart');
+    Route::get('/annonce', [AgenceController::class, 'annonce'])->name('annonce');
+    Route::post('/annonce-add', [AgenceController::class, 'annonceAdd'])->name('annonce.add');
+    Route::get('/upload', [AgenceController::class, 'annonceAdd'])->name('annonce.add');
+    Route::get('/upload', [AgenceController::class, 'uploadFile'])->name('upload.file');
+    Route::post('/upload-ad', [AgenceController::class, 'uploadFileAdd'])->name('upload.file.add');
+    Route::get('/get-file/{fileName}', [AgenceController::class, 'getFile'])->name('getFile');
+
+    Route::get('/annonce-add-page', [AgenceController::class, 'annonceAddPage'])->name('annonce.add.page');
+    Route::post('/annonce-create', [AgenceController::class, 'annonceCreate'])->name('annonce.create');
+    Route::get('/annonce-liste', [AgenceController::class, 'annonceListe'])->name('annonce.liste');
+
+    Route::post('/annonces/{id}/toggle-validation', [AgenceController::class, 'annonceValidader'])->name('annonces.valider');
+    Route::delete('/annonces/{id}', [AgenceController::class, 'destroyAnnonce'])->name('annonces.destroy');
+
+
+
+
+
+
+
+
+
 
     // Routes du vendeur
     Route::get('/vendeur/dashboard', [VendeurController::class, 'vendeurDashboard'])->name('vendeur.dashboard');
@@ -60,6 +87,8 @@ Route::middleware(['no-back-history',])->group(function () {
     Route::get('/user/dashboard', [UserController::class, 'userDashboard'])->name('user.dashboard');
     Route::get('/user/table', [UserController::class, 'userTable'])->name('user.table');
     Route::get('/user/chart', [UserController::class, 'userChart'])->name('user.chart');
+    Route::get('/filtre-page', [UserController::class, 'filtrePage'])->name('filtre.page');
+
 });
 
 

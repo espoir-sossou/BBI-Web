@@ -38,6 +38,9 @@
     <link href="Generales/lib/animate/animate.min.css" rel="stylesheet">
     <link href="Generales/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="Generales/css/style.css" rel="stylesheet">
     <style>
@@ -76,7 +79,7 @@
 
         /* Sur les petits écrans */
         @media (max-width: 768px) {
-            .responsive-image {
+            .carousel {
                 height: 25vh !important;
                 /* Réduit la hauteur à 30% de la hauteur de l'écran */
                 margin-bottom: 0 !important;
@@ -102,12 +105,26 @@
         /* Règle pour petits écrans */
         @media (max-width: 768px) {
             .section.properties {
-                margin-top: -140px;
+                margin-top: -20px;
                 /* Augmentez la valeur négative pour aller encore plus haut */
                 position: relative;
-                top: -140px;
+                top: -20px;
                 /* Ajustez cette valeur selon vos besoins */
             }
+        }
+
+        .carousel-item {
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .carousel-item-next,
+        .carousel-item-prev,
+        .carousel-item.active {
+            display: block;
+        }
+
+        .carousel-inner {
+            overflow: hidden;
         }
     </style>
 </head>

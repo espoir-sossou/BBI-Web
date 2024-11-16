@@ -144,6 +144,18 @@
             /* Afficher la barre en bas pour petits écrans */
         }
     }
+
+    @media (max-width: 767px) {
+        .scrolling-buttons .nav-item {
+            margin-right: 5px;
+        }
+
+        .scrolling-buttons .btn {
+            padding: 5px 8px;
+            /* Réduisez ces valeurs selon vos besoins */
+            font-size: 15px;
+        }
+    }
 </style>
 
 
@@ -297,41 +309,42 @@
     <div class="d-lg-none">
         <div class="scrolling-buttons">
             <ul class="navbar-nav d-flex flex-row w-100">
+                <a href="{{ route('loginPage') }}">
+                    <li class="nav-item">
+                        <button class="btn btn-light">
+                            <i class="fas fa-bullhorn mr-2" style="color: #318093;"></i> <span>Annonces</span>
+                        </button>
+                    </li>
+                </a>
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-briefcase" style="color: #318093;"></i> <span>BBI</span>
+                        <i class="fa fa-phone" style="color: #318093;"></i>
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn btn-light">
+                        <i class="fa fa-comment" style="color: #318093;"></i> <span></span>
                     </button>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-phone" style="color: #318093;"></i> <span>Appeler</span>
-                    </button>
-                </li>
-                <!--
-                <li class="nav-item">
-                    <button class="btn btn-light">
-                        <i class="fa fa-comment" style="color: #318093;"></i> <span>Messages</span>
+                        <i class="fa fa-exchange-alt" style="color: #318093;"></i> <span></span>
                     </button>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-exchange-alt" style="color: #318093;"></i> <span>Comparer</span>
+                        <i class="fa fa-heart" style="color: #318093;"></i> <span></span>
                     </button>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-heart" style="color: #318093;"></i> <span>Favori</span>
+                        <i class="fa fa-bell" style="color: #318093;"></i> <span></span>
                     </button>
                 </li>
-                 <li class="nav-item">
-                    <button class="btn btn-light">
-                        <i class="fa fa-bell" style="color: #318093;"></i> <span>Notifications</span>
-                    </button>
-                </li>
-                 Gestion des liens de profil et déconnexion -->
                 <li class="nav-item">
                     <button class="btn btn-light">
-                        <i class="fa fa-shopping-cart" style="color: #318093;"></i> <span>Panier</span>
+                        <i class="fa fa-shopping-cart" style="color: #318093;"></i>
                     </button>
                 </li>
 
@@ -339,15 +352,15 @@
                     <div class="btn-group mx-1">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle d-flex align-items-center"
                             data-toggle="dropdown">
-                            <i class="fa fa-user" aria-hidden="true" style="font-size: 20px; color: #318093"></i>
-                            <span class="ml-2" style="color: #318093">Profil</span>
+                            <i class="fa fa-user" aria-hidden="true" style=" color: #318093"></i>
+                            <span class="ml-2" style="color: #318093"></span>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
                             <!-- Gestion des liens de profil et déconnexion -->
                             @if (session()->has('user'))
                                 <a href="{{ route('user.profil') }}">
-                                    <button class="dropdown-item" type="button" style="color: #318093">Voir
-                                        Profil</button>
+                                    <button class="dropdown-item" type="button" style="color: #318093">
+                                    </button>
                                 </a>
                                 <form id="logout-form" action="{{ route('user.logout') }}" method="POST"
                                     style="display: none;">
@@ -387,11 +400,11 @@
             <i class="fa fa-map"></i>
             <span>Carte</span>
         </a>
-        <a href="#" class="bottom-nav-item">
+        <a href="{{ route('filtre.page') }}" class="bottom-nav-item">
             <i class="fa fa-filter"></i>
             <span>Filtre</span>
         </a>
-        <a href="#" class="bottom-nav-item">
+        <a href="{{ route('signUpPage') }}" class="bottom-nav-item">
             <i class="fa fa-user"></i>
             <span>Agent</span>
         </a>

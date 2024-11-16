@@ -10,6 +10,17 @@ class UserController extends Controller
     {
         return view('Layout.Backend.User_dashboard.index');
     }
+    public function filtrePage()
+    {
+        return view('Layout.Frontend..filtre-page');
+    }
+
+
+
+
+
+
+
     public function userTable()
     {
         return view('Layout.Backend.User_dashboard.table');
@@ -18,5 +29,5 @@ class UserController extends Controller
     {
         return view('Layout.Backend.User_dashboard.charts');
     }
-  
+
 }

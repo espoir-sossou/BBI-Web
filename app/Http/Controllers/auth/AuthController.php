@@ -98,8 +98,9 @@ class AuthController extends Controller
             $data = $response->json('data');
             $role = $data['role'];  // Récupérer le rôle de l'utilisateur
 
-            // Enregistrer les informations de l'utilisateur dans la session
+            // Enregistrer les informations de l'utilisateur et le token dans la session
             Session::put('user', $data);
+            Session::put('token', $data['token']);  // Sauvegarder le token dans la session
 
             // Redirection en fonction du rôle
             switch ($role) {
@@ -123,6 +124,7 @@ class AuthController extends Controller
             return redirect()->route('loginPage')->with('fail', $errorMessage);
         }
     }
+
 
     public function handleLogout(Request $request)
     {

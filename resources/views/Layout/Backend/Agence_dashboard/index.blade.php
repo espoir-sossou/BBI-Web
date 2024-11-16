@@ -1,4 +1,4 @@
-@extends('Layout.user_layout')
+@extends('Layout.agence_layout')
 
 @section('content')
     <!-- Begin Page Content -->
