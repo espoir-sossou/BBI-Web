@@ -1,6 +1,6 @@
 <?php
 
-$host = "https://bbi-production.up.railway.app//";
+$host = "https://bbi-production.up.railway.app/";
 
 return [
     "routes" => [

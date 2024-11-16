@@ -129,8 +129,9 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img1.png"
                                         alt=""  style="max-width: 400px;"></a>
                                 <span class="category">A louer</span>
-                                <h6>$2.264.000</h6>
-                                <h4><a href="property-details.html">18 Vieille Rue Miami, OR 97219</a></h4>
+                                <h6>500 Millions XOF</h6>
+                                <h4><a href="property-details.html">PARCELLES ENSEMBLES
+                                </a></h4>
                                 <ul>
                                     <li>Chambres : <span>8</span></li>
                                     <li>Salles de bain : <span>8</span></li>
@@ -142,6 +143,10 @@
                                     <li>Toilette : <span>3</span></li>
                                     <li>Garage : <span>1</span></li>
                                     <li>Picine : <span>8</span></li>
+                                    <li>Superficie : <span>317 m²</span></li>
+                                    <li>Titre foncier en cours : <span></span></li>
+
+
                                 </ul>
 
                             </div>
@@ -151,12 +156,14 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img2.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A vendre</span>
-                                <h6>$1.180.000</h6>
-                                <h4><a href="property-details.html">54 Nouvelle Rue Floride, OR 27001</a></h4>
+                                <h6>30 millions négociable</h6>
+                                <h4><a href="property-details.html">VENTE D'UNE GRANDE PARCELLE CLÔTURÉE
+                                </a></h4>
                                 <ul>
                                     <li>Chambres : <span>6</span></li>
                                     <li>Salles de bain : <span>5</span></li>
                                     <li>Surface : <span>450m2</span></li>
+                                    <li>Propriétaire : <span>Vivant </span></li>
                                     <li>Étages : <span>3</span></li>
                                     <li>Parking : <span>8 places</span></li>
                                     <li>Douches : <span>8</span></li>
@@ -164,6 +171,7 @@
                                     <li>Toilette : <span>3</span></li>
                                     <li>Garage : <span>1</span></li>
                                     <li>Picine : <span>8</span></li>
+                                    <li>Superficie : <span>317 m²</span></li>
                                 </ul>
 
                             </div>
@@ -173,8 +181,8 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img3.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A vendre</span>
-                                <h6>$1.460.000</h6>
-                                <h4><a href="property-details.html">26 Rue Centrale Portland, OR 38540</a></h4>
+                                <h6> 18 millions / parcelle </h6>
+                                <h4><a href="property-details.html">Une parcelle clôturé à agla en deuxième position des pavés  </a></h4>
                                 <ul>
                                     <li>Chambres : <span>5</span></li>
                                     <li>Salles de bain : <span>4</span></li>
@@ -195,8 +203,8 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img4.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A louer</span>
-                                <h6>$584.500</h6>
-                                <h4><a href="property-details.html">12 Rue de l'Espoir Portland, OR 12650</a></h4>
+                                <h6>584.500 XOF</h6>
+                                <h4><a href="property-details.html">CADJEHOUN EN 5 EME POSITION DES PAVÉS</a></h4>
                                 <ul>
                                     <li>Chambres : <span>4</span></li>
                                     <li>Salles de bain : <span>3</span></li>
@@ -217,8 +225,9 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img5.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A vendre</span>
-                                <h6>$925.600</h6>
-                                <h4><a href="property-details.html">34 Rue de l'Espoir Portland, OR 42680</a></h4>
+                                <h6>925.600 XOF</h6>
+                                <h4><a href="property-details.html">Deux Parcelles ensembles
+                                </a></h4>
                                 <ul>
                                     <li>Chambres : <span>4</span></li>
                                     <li>Salles de bain : <span>4</span></li>
@@ -239,14 +248,16 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img6.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A louer</span>
-                                <h6>$450.000</h6>
-                                <h4><a href="property-details.html">22 Rue de l'Espoir Portland, OR 16540</a></h4>
+                                <h6>30 MILLIONS
+                                    XOF</h6>
+                                <h4><a href="property-details.html">2 PARCELLES ENSEMBLES</a></h4>
                                 <ul>
                                     <li>Chambres : <span>3</span></li>
                                     <li>Salles de bain : <span>2</span></li>
-                                    <li>Surface : <span>165m2</span></li>
+                                    <li>Surface : <span>906M² </span></li>
                                     <li>Étages : <span>26e</span></li>
                                     <li>Parking : <span>3 voitures</span></li>
+                                    <li>TITRE FONCIER : <span>GLOBAL</span></li>
                                     <li>Douches : <span>8</span></li>
                                     <li>Salle de Douches : <span>2</span></li>
                                     <li>Toilette : <span>3</span></li>
@@ -261,12 +272,13 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img7.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A louer</span>
-                                <h6>$980.000</h6>
-                                <h4><a href="property-details.html">14 Rue Centrale Miami, OR 36450</a></h4>
+                                <h6>45 millions XOF</h6>
+                                <h4><a href="property-details.html">TITRE FONCIER GLOBAL
+                                </a></h4>
                                 <ul>
                                     <li>Chambres : <span>8</span></li>
                                     <li>Salles de bain : <span>8</span></li>
-                                    <li>Surface : <span>550m2</span></li>
+                                    <li>Surface : <span>906m²</span></li>
                                     <li>Étages : <span>3</span></li>
                                     <li>Parking : <span>12 places</span></li>
                                     <li>Douches : <span>8</span></li>
@@ -283,14 +295,15 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img8.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A vendre</span>
-                                <h6>$1.520.000</h6>
-                                <h4><a href="property-details.html">26 Vieille Rue Miami, OR 12870</a></h4>
+                                <h6>15 millions négociables</h6>
+                                <h4><a href="property-details.html">02 parcelles ensemble en angle de rues dans la zopah très proche du marché de gros Bon pour tout projet de magasin</a></h4>
                                 <ul>
                                     <li>Chambres : <span>12</span></li>
                                     <li>Salles de bain : <span>15</span></li>
-                                    <li>Surface : <span>380m2</span></li>
+                                    <li>Surface : <span>544m² / parcelle</span></li>
                                     <li>Étages : <span>3</span></li>
                                     <li>Parking : <span>14 places</span></li>
+                                    <li>Document : <span> fiche bleu</span></li>
                                     <li>Douches : <span>8</span></li>
                                     <li>Salle de Douches : <span>2</span></li>
                                     <li>Toilette : <span>3</span></li>
@@ -305,8 +318,8 @@
                                 <a href="property-details.html"><img src="Frontend/Home/assets/imgs/img9.png"
                                         alt="" style="max-width: 400px;"></a>
                                 <span class="category">A louer</span>
-                                <h6>$3.145.000</h6>
-                                <h4><a href="property-details.html">26 Vieille Rue Miami, OR 12870</a></h4>
+                                <h6>80 MILLIONS  XOF</h6>
+                                <h4><a href="property-details.html">PARCELLE A VENDRE A CADJEHOUN EN 5 EME POSITION DES PAVÉS.</a></h4>
                                 <ul>
                                     <li>Chambres : <span>6</span></li>
                                     <li>Salles de bain : <span>4</span></li>
@@ -315,9 +328,12 @@
                                     <li>Parking : <span>10 places</span></li>
                                     <li>Douches : <span>8</span></li>
                                     <li>Salle de Douches : <span>2</span></li>
+                                    <li>PRIX DE VISITE : <span>80 MILLIONS</span></li>
                                     <li>Toilette : <span>3</span></li>
                                     <li>Garage : <span>1</span></li>
                                     <li>Picine : <span>8</span></li>
+                                    <li>VISITE A TOUT MOMENT ET PAYANTE: <span></span></li>
+
                                 </ul>
 
                             </div>
